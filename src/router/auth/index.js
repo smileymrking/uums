@@ -14,6 +14,11 @@ const authRouter = [
         name: 'sendResetEmail',
         path: '/password/forgot',
         component: () => import('../../views/auth/SendResetEmail')
+      },
+      {
+        name: 'passwordReset',
+        path: '/password/reset/:token',
+        component: () => import('../../views/auth/PasswordReset')
       }
     ]
   }

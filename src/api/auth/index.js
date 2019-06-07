@@ -20,6 +20,6 @@ export default {
   },
   // 用户密码重置
   passwordReset: (params) => {
-    // return axios.post('auth/user/password/reset', params)
+    return axios.post('auth/password/reset', params)
   }
 }
