@@ -1,5 +1,5 @@
 <template>
-  <a-layout-header :style="{ position: 'fixed', background: '#fff',  width: '100%', padding: '0 225px 0 0' }">
+  <a-layout-header :style="{ background: '#fff',  width: '100%', padding: '0' }">
     <a-icon class="trigger" :type="collapse" @click="setMenuCollapse"/>
     <div class="user-wrapper">
       <a-dropdown>

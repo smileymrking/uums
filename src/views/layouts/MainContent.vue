@@ -1,9 +1,9 @@
 <template>
-  <a-layout id="components-layout-demo-custom-trigger" :style="{ position: 'fixed', overflow: 'hidden', height: '100%', width: '100%' }">
+  <a-layout id="components-layout-demo-custom-trigger" :style="{ position: 'fixed', overflow: 'auto', height: '100%', width: '100%' }">
     <Aside></Aside>
     <a-layout>
       <Header></Header>
-      <a-layout-content :style="{ margin: '88px 16px 24px', padding: '24px', background: '#fff' }">
+      <a-layout-content :style="{ margin: '24px', padding: '24px', background: '#fff', minHeight: 'auto' }">
         <router-view></router-view>
       </a-layout-content>
       <Footer></Footer>
